@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Nanum+Gothic&family=Nanum+Pen+Script&family=Noto+Serif+KR&display=swap');
+
+.font-1 {
+    font-family: 'Gowun Batang', serif;
+}
+
+.font-2 {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.font-3 {
+    font-family: 'Noto Serif KR', serif;
+}
+
+body {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+textarea {
+    width: 95%;
+    resize: none;
+    padding: 10px;
+}
+
+#button-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+#letter-container {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+    height: 30px;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px 1px;
+    width: 24px;
+    height: 28px;
+    box-shadow: 0.1px 0.1px 0.5px rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.button,
+.preventDrag {
+    user-select: none;
+}

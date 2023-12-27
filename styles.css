@@ -13,16 +13,48 @@
 }
 
 body {
+    margin: 10vw;
     background-color: transparent;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-textarea {
+a {
+    color: black;
+    text-decoration-color: transparent;
+}
+
+a:hover {
+    text-decoration-color: black;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: black;
+}
+
+#title {
+    margin: 10px;
+}
+
+#input-text-area {
     width: 95%;
     resize: none;
     padding: 10px;
+    margin-top: 20px;
+}
+
+#credit {
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+#credit span {
+    font-size: 15px;
 }
 
 #button-container {
@@ -30,6 +62,7 @@ textarea {
     width: 100%;
     justify-content: center;
     margin: 20px 0px;
+    gap: 10px
 }
 
 #letter-container {
@@ -44,7 +77,7 @@ textarea {
     justify-content: center;
     align-items: center;
 
-    width: 50px;
+    width: 80px;
     height: 30px;
 
     color: white;
